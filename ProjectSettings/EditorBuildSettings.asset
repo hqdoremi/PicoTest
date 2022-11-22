@@ -11,3 +11,4 @@ EditorBuildSettings:
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 672ea73d408044490b59096d9cd5d37d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a3e94fde355e240c498d4ca8db02ead9, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 4b363f93aefbb4466adb4b7d48822423, type: 2}
