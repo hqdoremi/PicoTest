@@ -90,8 +90,6 @@ struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
 struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
-// UnityEngine.XR.Interaction.Toolkit.XRController
-struct XRController_t928E104C899E51FDE12C0A8AC68874587C46C28F;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 
@@ -708,8 +706,6 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 // PlayBall
 struct PlayBall_t831A5740FC9C8A009C6625C034F2EFC1E89C8885  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.XR.Interaction.Toolkit.XRController PlayBall::leftController
-	XRController_t928E104C899E51FDE12C0A8AC68874587C46C28F* ___leftController_4;
 };
 
 // SimpleInteractorController

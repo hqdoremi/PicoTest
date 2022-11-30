@@ -1292,8 +1292,6 @@ struct XRBaseController_t44C1BB30A7E1D279DD2508F34D3352B33A9AD60C;
 struct XRBaseInteractable_tC2C966C710AE6AC232E248B1BCF323386110D0F6;
 // UnityEngine.XR.Interaction.Toolkit.XRBaseInteractor
 struct XRBaseInteractor_tB48889E8D95695ABF46D2012EC55EA660103D158;
-// UnityEngine.XR.Interaction.Toolkit.XRController
-struct XRController_t928E104C899E51FDE12C0A8AC68874587C46C28F;
 // UnityEngine.XR.Interaction.Toolkit.XRControllerRecording
 struct XRControllerRecording_t150AE150AE02364880B965DF1A9A0EDC095CFA48;
 // UnityEngine.XR.Interaction.Toolkit.XRControllerState
@@ -20977,13 +20975,6 @@ struct PXR_ScreenFade_t7A98AD1772964109C36129FB358C886D12CB7FFD  : public MonoBe
 	int32_t ___N_15;
 };
 
-// PlayBall
-struct PlayBall_t831A5740FC9C8A009C6625C034F2EFC1E89C8885  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.XR.Interaction.Toolkit.XRController PlayBall::leftController
-	XRController_t928E104C899E51FDE12C0A8AC68874587C46C28F* ___leftController_4;
-};
-
 // SimpleInteractorController
 struct SimpleInteractorController_tC050DECC883FADFF49812CCD035CFDCA39200AD6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -28168,9 +28159,6 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4943[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4948[3] = 
 {
 	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap_0)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap_1)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4951[1] = 
-{
-	static_cast<int32_t>(offsetof(PlayBall_t831A5740FC9C8A009C6625C034F2EFC1E89C8885, ___leftController_4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4952[4] = 
 {
 	static_cast<int32_t>(offsetof(SimpleInteractorController_tC050DECC883FADFF49812CCD035CFDCA39200AD6, ___obj_4)),static_cast<int32_t>(offsetof(SimpleInteractorController_tC050DECC883FADFF49812CCD035CFDCA39200AD6, ___blue_5)),static_cast<int32_t>(offsetof(SimpleInteractorController_tC050DECC883FADFF49812CCD035CFDCA39200AD6, ___yellow_6)),static_cast<int32_t>(offsetof(SimpleInteractorController_tC050DECC883FADFF49812CCD035CFDCA39200AD6, ___grey_7)),};

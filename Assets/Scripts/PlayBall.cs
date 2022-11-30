@@ -6,7 +6,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class PlayBall : MonoBehaviour
 {
-    public XRController leftController;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +15,6 @@ public class PlayBall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-        //var success = leftController.inputDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 result);
-
         InputDevice inputDevice = InputDevices.GetDeviceAtXRNode(XRNode.LeftHand);
         var success = inputDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 result);
         Debug.Log("heqheq result:" + result+";"+success);
@@ -29,9 +25,5 @@ public class PlayBall : MonoBehaviour
             transform.position = new Vector3(position.x + result.x * Time.deltaTime* value, position.y, position.z+ result.y * Time.deltaTime* value);
             print("heqheq position before:"+position+";after:" + transform.position);
         }
-
-       
-
-
     }
 }
