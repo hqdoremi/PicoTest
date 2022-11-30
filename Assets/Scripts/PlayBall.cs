@@ -16,12 +16,22 @@ public class PlayBall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         //var success = leftController.inputDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 result);
-        //if (success)
-        //{
-        //    var position = transform.position;
-        //    transform.position = new Vector3(position.x * result.x * Time.deltaTime, position.y, position.z * result.y * Time.deltaTime);
-        //}
-        
+
+        InputDevice inputDevice = InputDevices.GetDeviceAtXRNode(XRNode.LeftHand);
+        var success = inputDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 result);
+        Debug.Log("heqheq result:" + result+";"+success);
+        if (success)
+        {
+            var position = transform.position;
+            var value = 3;
+            transform.position = new Vector3(position.x + result.x * Time.deltaTime* value, position.y, position.z+ result.y * Time.deltaTime* value);
+            print("heqheq position before:"+position+";after:" + transform.position);
+        }
+
+       
+
+
     }
 }
