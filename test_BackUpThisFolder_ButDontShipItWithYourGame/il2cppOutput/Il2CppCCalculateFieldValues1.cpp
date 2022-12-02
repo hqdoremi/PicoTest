@@ -20290,6 +20290,17 @@ struct EventTrigger_tAEBFB7A16CA99343EA87722F78884BF8646BAE1B  : public MonoBeha
 	List_1_tA70D786D375D198C77EBB594AE632A6DFC82A440* ___m_Delegates_4;
 };
 
+// GrabBall
+struct GrabBall_tDF7F59F9D593E060BF13D78E66B9672EE459C273  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.GameObject GrabBall::obj
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_4;
+	// UnityEngine.Material GrabBall::blue
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___blue_5;
+	// UnityEngine.Material GrabBall::grey
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___grey_6;
+};
+
 // UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
 struct InputActionManager_tCB367C1814B9264CDE8FA04AA916642BB2887D21  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -28159,24 +28170,27 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4943[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4948[3] = 
 {
 	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap_0)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap_1)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4952[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4951[3] = 
+{
+	static_cast<int32_t>(offsetof(GrabBall_tDF7F59F9D593E060BF13D78E66B9672EE459C273, ___obj_4)),static_cast<int32_t>(offsetof(GrabBall_tDF7F59F9D593E060BF13D78E66B9672EE459C273, ___blue_5)),static_cast<int32_t>(offsetof(GrabBall_tDF7F59F9D593E060BF13D78E66B9672EE459C273, ___grey_6)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4953[4] = 
 {
 	static_cast<int32_t>(offsetof(SimpleInteractorController_tC050DECC883FADFF49812CCD035CFDCA39200AD6, ___obj_4)),static_cast<int32_t>(offsetof(SimpleInteractorController_tC050DECC883FADFF49812CCD035CFDCA39200AD6, ___blue_5)),static_cast<int32_t>(offsetof(SimpleInteractorController_tC050DECC883FADFF49812CCD035CFDCA39200AD6, ___yellow_6)),static_cast<int32_t>(offsetof(SimpleInteractorController_tC050DECC883FADFF49812CCD035CFDCA39200AD6, ___grey_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4953[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4954[1] = 
 {
 	static_cast<int32_t>(offsetof(UIController_tB28317BDC5493B0C94BC719AA8B3FFC90E5AF6D2, ___text_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4955[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4956[1] = 
 {
 	0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4956[3] = 
-{
-	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4957[3] = 
 {
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4958[3] = 
+{
 	0,static_cast<int32_t>(offsetof(MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235, ___renderMode_5)),static_cast<int32_t>(offsetof(MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235_StaticFields, ___s_RuntimeInstance_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4958[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4959[2] = 
 {
 	static_cast<int32_t>(offsetof(MockHMDLoader_tD907BB7814BF34F5BC755B09DA674C27C8070984_StaticFields, ___s_DisplaySubsystemDescriptors_5)),static_cast<int32_t>(offsetof(MockHMDLoader_tD907BB7814BF34F5BC755B09DA674C27C8070984_StaticFields, ___s_InputSubsystemDescriptors_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4962[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4963[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
